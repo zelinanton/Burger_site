@@ -1,0 +1,388 @@
+@font-face {
+    font-family: Montserrat Bold;
+    src: url(fonts/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: BebasNeue Bold;
+    src: url(fonts/BebasNeue/BebasNeue\ Bold.ttf);
+}
+@font-face {
+    font-family: Alfa Slab One Regular;
+    src: url(fonts/AlfaSlabOne-Regular.ttf);
+}
+*,*:focus,*:hover{
+    outline:none;
+}
+body{
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 1440px;
+}
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.brown{
+    color: #3d2514;
+}
+.shadow{
+    text-shadow: 3px 5px 0px #fff;
+}
+.z{
+    z-index: 1;
+}
+.bebas-bold{
+    font-family: BebasNeue Bold;
+    color: #fff;
+}
+.tac{
+    text-align: center;
+}
+/* Header */
+.header{
+    background-image: url(images/bg.png);
+    padding-left: 62px;
+    height: 825px;
+}
+.header__content{
+    margin-top: 143px;
+}
+.header__container{
+    padding-top: 53px;
+}
+.header__phone{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 28px;
+}
+.header__phone-text{
+    font-family: Montserrat Bold;
+    font-size: 16.67px;
+    color: #3d2514;
+    letter-spacing: 1px;
+}
+.nav__item{
+    font-family: BebasNeue Bold;
+    font-size: 20.83px;
+    color: #3d2514;
+    margin-right: 51px;
+    letter-spacing: 6px;
+    z-index: 1;
+}
+.nav__item a{
+    text-decoration: none;
+    color: #3d2514;
+}
+.nav__item:last-child{
+    margin-right: -5px;
+}
+.header__toolbar{
+    margin-right: 58px;
+}
+.header__content-title{
+    font-family: Alfa Slab One Regular;
+    font-size: 114.3px;
+}
+.header__content-undertitle{
+    font-family: Alfa Slab One Regular;
+    font-size: 56.49px;
+}
+.header__content-subtitle{
+    font-family: Bebas Neue Regular;
+    font-size: 23.65px;
+    border: 2px dashed #3d2514;
+    width: 360px;
+}
+.header__image{
+    margin-top: -282px;
+}
+
+/* Offers */
+.offers{
+    padding-top: 78px;
+    padding-bottom: 71px;
+}
+.offers__main-offer{
+    background-image: url(images/offers/main-offer.png);
+    background-size: cover;
+    border-radius: 7px;
+    width: 595px;
+    max-height: 420px;
+    margin-left: 109px;
+    padding-top: 31px;
+    padding-left: 25px;
+}
+.offers__offer-top{
+    background-image: url(images/offers/top-offer.png);
+    background-size: cover;
+}
+.offers__offer-bottom{
+    background-image: url(images/offers/Bottom-offer.png);
+    background-size: cover;
+}
+.offer{
+    width: 595px;
+    height: 182px;
+    margin-left: 42px;
+    margin-bottom: 27px;
+    padding-top: 30px;
+    padding-left: 29px;
+    border-radius: 7px;
+}
+.offer:last-child{
+    margin-bottom: 0;
+}
+.offer__subtitle{
+    font-size: 25px;
+}
+.offer__title{
+    font-size: 41.67px;
+}
+
+/* Menu */
+.menu__subtitle{
+    color: #3d2514;
+    background-color: #ffc045;
+    font-size: 25px;
+    width: fit-content;
+    margin: auto;
+    padding: 15px 22px;
+}
+.menu__title{
+    font-family: Alfa Slab One Regular;
+    font-size: 50px;
+    color: #3d2514;
+    text-align: center;
+    margin-top: 20px;
+}
+.menu__text{
+    font-family: Montserrat Regular;
+    font-size: 16.67px;
+    color: #3d2514;
+    text-align: center;
+    margin: auto;
+    width: 1100px;
+    letter-spacing: 0;
+    line-height: 29px;
+    margin-top: 32px;
+}
+.menu__items{
+    justify-content: center;
+    margin-bottom: 130px;
+}
+.menu__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100%/3);
+}
+.menu__item-image{
+    margin-top: 35px;
+}
+.menu__item-title{
+    font-family: BebasNeue Bold;
+    font-size: 37.5px;
+    color: #3d2514;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.menu__item-content{
+    font-family: Montserrat Regular;
+    font-size: 16.67px;
+    color: #3d2514;
+    margin-bottom: 26px;
+    padding: 0 50px;
+    text-align: center;
+}
+.menu__item-button{
+    width: 195px;
+    height: 57px;
+    background-color: #bf2222;
+    color: #fff;
+    text-align: center;
+    margin-left: 70px;
+    font-family: Alfa Slab One Regular;
+    font-size: 16.67px;
+    border: 1px solid #fff;
+    margin: 0 auto;
+}
+
+/* Carousel */
+.carousel{
+    box-shadow: 0 10px 45px 1px #d8d8d8;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.carousel__container{
+    justify-content: end;
+}
+.carousel__content{
+    margin-left: 45px;
+    width: 540px;
+}
+.carousel__content-subtitle{
+    font-size: 29.17px;
+    color: #3d3d3d
+}
+.carousel__content-title{
+    font-family: Alfa Slab One Regular;
+    font-size: 41.67px;
+    color: #3d2514;
+    margin-bottom: 36px;
+}
+.carousel__content-content{
+    font-family: Montserrat Regular;
+    font-size: 20.83px;
+    line-height: 33.33px;
+    color: #3d3d3d;
+    hyphens: auto;
+}
+.carousel__image{
+    margin-top: -35px;
+    margin-bottom: 16px;
+    margin-left: 177px;
+}
+.slick-initialized .slick-slide {
+    display: flex;
+}
+.slick-dots{
+    display: flex;
+    justify-content: center;
+}
+.my-dots {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    position: absolute;
+    top: 332px;
+  }
+.my-dots li{
+    background-color: #8c9494;
+    border: 1px solid #8c9494;
+    border-radius: 15px;
+    margin: 5px;
+}
+.my-dots li button{
+    background: transparent;
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+}
+.my-dots .slick-active{
+    background-color: #ffc045;
+    border: 1px solid #ffc045;
+}
+
+/* Orders */
+.orders{
+    background: url(images/Order.png) no-repeat;
+}
+.orders__subtitle{
+    font-size: 29.17px;
+    color: #3d2514;
+    padding-top: 126px;
+    margin-bottom: 2px;
+}
+.orders__title{
+    font-family: Alfa Slab One Regular;
+    font-size: 50px;
+    color: #3d2514;
+    letter-spacing: 3px;
+    margin-bottom: 85px;
+    line-height: 46px;
+}
+.orders__form{
+    width: 635px;
+    margin: 0 auto;
+}
+.orders__form-item{
+    margin-right: 20px;
+    margin-bottom: 28px;
+}
+.orders__form-items:last-child{
+    padding-bottom: 178px;
+}
+.orders__input-text{
+    width: 303px;
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid #bebebe;
+    font-family: Bebas Neue Regular;
+    font-size: 21px;
+}
+.orders__button{
+    background-color: #bf2222;
+    color: #fff;
+    font-family: Alfa Slab One Regular;
+    font-size: 21px;
+    width: 311px;
+    border: solid #bf2222;
+    border-radius: 4px;
+}
+/* Footer */
+.footer{
+    background-image: url(images/footer/bg.png);
+    background-size: cover;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__content{
+    padding-top: 65px;
+    margin-left: 33px;
+}
+.footer__content-text{
+    font-family: Montserrat Regular;
+    font-size: 16.67px;
+    line-height: 25px;
+    width: 535px;
+    margin-top: 42px;
+    margin-bottom: 165px;
+    color: #fff;
+}
+.footer__content-rights{
+    font-family: Bebas Neue Regular;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+}
+.footer__info{
+    margin-top: 236px;
+}
+.footer__info-info{
+    margin-right: 126px;
+    margin-bottom: 14px;
+}
+.footer__info-icon{
+    margin-right: 35px;
+}
+.footer__info-text{
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+}
+.footer__info-icons{
+    display: flex;
+    margin-top: 151px;
+    margin-bottom: 19px;
+    margin-right: 17px;
+    justify-content: flex-end;
+}
+.footer__info-social__icon{
+    margin-right: 14px;
+}
